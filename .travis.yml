@@ -9,7 +9,7 @@ install: true
 
 # Execute our custom build
 script:
-    - ./gradlew clean buildDashboard
+  - ./gradlew clean buildDashboard
     
 deploy:
   provider: surge
