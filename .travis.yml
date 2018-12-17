@@ -15,5 +15,6 @@ deploy:
   provider: surge
   project: build/report/
   domain: 2018-scm-reports-richi.surge.sh
+  skip_cleanup: true
   on:
     all_branches: true
