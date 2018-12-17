@@ -1,7 +1,6 @@
 language: java
 
 jdk:
-  - openjdk7
   - openjdk8
   - openjdk9
   - openjdk10
@@ -27,4 +26,5 @@ deploy:
   domain: 2018-scm-reports-richi.surge.sh
   skip_cleanup: true
   on:
+    jdk: openjdk8
     all_branches: true
