@@ -1,1 +1,8 @@
 language: java
+
+# Disable Travis install phase
+install: true
+
+# Execute our custom build
+script:
+    - ./gradlew clean buildDashboard
